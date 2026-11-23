@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Chemistry reading notes and resources for Chemical Structure and Reactivity by James Keeler and Peter Wothers.">
+  <title>Chemistry reading — Farouq Alrahmou</title>
+  <style>
+    /* Deliberately simple: one page, no framework, no effects. */
+    :root {
+      color-scheme: light;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: #fff;
+      color: #202020;
+      font: 16px/1.65 Arial, Helvetica, sans-serif;
+    }
+
+    .page {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 66px 28px 90px;
+    }
+
+    header {
+      padding-bottom: 20px;
+      border-bottom: 1px solid #d8d8d8;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 30px;
+      line-height: 1.3;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 150px minmax(0, 1fr);
+      gap: 48px;
+      padding-top: 34px;
+    }
+
+    nav {
+      align-self: start;
+      position: sticky;
+      top: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+      font-size: 15px;
+    }
+
+    a {
+      color: #174b84;
+      text-underline-offset: 2px;
+    }
+
+    nav a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    a:focus-visible {
+      outline: 2px solid #174b84;
+      outline-offset: 3px;
+    }
+
+    main {
+      max-width: 610px;
+      min-width: 0;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    section {
+      margin: 0 0 36px;
+      scroll-margin-top: 28px;
+    }
+
+    h2 {
+      margin: 0 0 8px;
+      font-size: 19px;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+
+    .quiet {
+      color: #666;
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        padding: 35px 22px 64px;
+      }
+
+      h1 {
+        font-size: 27px;
+      }
+
+      .layout {
+        display: block;
+        padding-top: 22px;
+      }
+
+      nav {
+        position: static;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px 20px;
+        padding-bottom: 30px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header><h1><a href="./index.html" style="color:inherit;text-decoration:none">Farouq Alrahmou</a></h1></header>
+    <div class="layout">
+      <nav aria-label="Main navigation">
+        <a href="./index.html">Home</a>
+        <a href="./index.html#notes" aria-current="page">Notes</a>
+        <a href="./index.html#projects">Projects</a>
+        <a href="./study.html">Study</a>
+        <a href="./index.html#contact">Contact</a>
+      </nav>
+      <main>
+        <section aria-labelledby="chemistry-heading">
+          <h2 id="chemistry-heading">Chemistry reading</h2>
+          <p class="quiet">A reading log and companion resources for university-level chemistry.</p>
+          <h2>Chemical Structure and Reactivity</h2>
+          <p><strong>James Keeler and Peter Wothers</strong><br>
+          <em>An Integrated Approach</em>, 2nd edition (Oxford University Press, 2013)<br>
+          ISBN 9780199604135</p>
+          <p>This book connects molecular structure, electron behaviour, bonding, thermodynamics and chemical reactions rather than treating each as an isolated subject.</p>
+          <p><a href="https://www.oup.com.au/books/higher-education/chemistry/9780199604135" target="_blank" rel="noopener noreferrer">Book information at Oxford University Press</a><br>
+          <a href="https://learninglink.oup.com/access/keeler-wothers2e" target="_blank" rel="noopener noreferrer">Official companion learning resources</a></p>
+          <p class="quiet"><small>The textbook itself is not hosted on this website.</small></p>
+        </section>
+        <section aria-labelledby="reading-heading">
+          <h2 id="reading-heading">Reading progress</h2>
+          <p><strong>Chapter 1 — Molecules and molecular structures: an overview</strong><br>
+          Covered in guided discussion: Lewis structures, formal charge, resonance, oxidation numbers, VSEPR, X-ray diffraction, bonding, intermolecular forces, solids and the ideal gas.</p>
+          <p><strong>Next: Chapter 2 — Electrons in atoms</strong><br>
+          Quantum mechanics, wavefunctions, orbitals, electron configurations, penetration and shielding, and ionization energies.</p>
+          <p class="quiet">Chapters 3 and 4 continue with molecular symmetry and molecular orbital theory.</p>
+        </section>
+        <section aria-labelledby="questions-heading">
+          <h2 id="questions-heading">Questions to investigate</h2>
+          <ul>
+            <li>Why is water bent whereas carbon dioxide is linear?</li>
+            <li>Why do resonance structures represent one delocalized molecule, not molecules switching between drawings?</li>
+            <li>Why is molecular oxygen attracted to a magnetic field?</li>
+            <li>How can quantum mechanics explain the octet rule, and where does it fail?</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
